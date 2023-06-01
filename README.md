@@ -1,7 +1,9 @@
 # OS-PROJECT_BAEKI
 
 
+front와 back을 둘다 다루는 Fullstack으로 진행하였고
 
+실행을 위해서는 각 폴더 디렉토리로 이동한후 npm init과 함께 mpn run dev명령어를 입력하여 개발환경에 
 
 
 
