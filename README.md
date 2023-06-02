@@ -3,7 +3,22 @@
 
 front와 back을 둘다 다루는 Fullstack으로 진행하였고
 
-실행을 위해서는 각 폴더 디렉토리로 이동한후 npm init과 함께 mpn run dev명령어를 입력하여 개발환경에 
+실행을 위해서는 각 폴더 디렉토리로 이동한후 npm init과 함께 mpn run dev명령어를 입력하여 개발환경에서 실행이 가능하다.
+
+frontend에서의 npm run dev 명령어를 실행한후 나타나는 localhost:5173 의 링크에 들어가면 웹사이트의 메인 홈페이지에 접속이 가능하며, DB의 경우 backend에 .env 파일을 만들고 연결을 원하는 DB의 링크를 넣어주면 연결이 가능하다.
+
+데이터 스키마는 backend 파일의 models 폴더에 정의해 두었고
+Route는 Routes폴더에 저장되어있다.
+
+
+frontend에서의 Page는 총 10개로 구성되었으며,
+장바구니, 상세페이지, 로그인 페이지 등등이 있다.
+
+여러 디펜던시를 사용했는데 이중 몇개를 소개한다.
+Tailwind CSS  --> HTML안에서 CSS 스타일을 만들수 있게 해주는 CSS프레임워크(부트스트랩과 비슷한 역할)
+Mongoose  -->  몽고 DB의 사용을 위해 다양한 기능을 제공하는 모듈.
+
+
 
 
 
